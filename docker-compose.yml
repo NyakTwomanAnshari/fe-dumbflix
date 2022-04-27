@@ -2,8 +2,8 @@ version: '3'
 services:
   frontend1:
     build: .
-    image: fro:1.0
-    container_name: fro1
+    image: dumbflix-fe:1.0
+    container_name: frontend1
     stdin_open: true
     ports:
-      - 3000:3000
+      - 3333:3000
